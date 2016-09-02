@@ -1,0 +1,240 @@
+<html class=" ios iphone mobile portrait">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="browsermode" content="application">
+		<meta name="x5-page-mode" content="app">
+		<link rel="stylesheet" type="text/css" href="css/reset_m.css">
+		<link rel="stylesheet" type="text/css" href="css/index_m.css">
+		<!--检测设备是否是手机，不是的话跳转到PC端-->
+	<script type="text/javascript" src="js/device.min.js"></script>
+    <script type="text/javascript">
+		window.onload = function() {
+		if (!device.mobile()) {
+			window.location.href = "http://esn.zhongsou.com/";
+		}
+	}
+    </script>
+<!-- 
+<script type="text/javascript">
+	function checkPhone(){
+		var u=navigator.userAgent;
+		return {
+			trident:u.indexOf('Trident')>-1,
+			presto:u.indexOf('Presto')>-1,
+			webKit:u.indexOf('AppleWebKit')>-1,
+			gecko:u.indexOf('Gecko')>-1 && u.indexOf('KHTML')==-1,
+			mobile:!!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/),
+			ios:!!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+			android:u.indexOf('Android')>-1 || u.indexOf('Linux')>-1,
+			iPhone:u.indexOf("iPod")>-1 || u.indexOf('iPhone')>-1,
+			iPad:u.indexOf('iPad')>-1,
+			webApp:u.indexOf('Safari')==-1
+		};
+	}
+	//使用
+	var nav=checkPhone();
+	if(nav.iPhone || nav.iPad){
+		alert("IOS设备");
+	}else if(nav.android){
+		alert("安卓设备");	
+		location.href = "http://www.sina.com.cn/";
+	}else{
+		//alert("可以按照PC设备处理了");	
+		//window.open("http://www.baidu.com/");
+		window.location.href = "http://www.baidu.com/";//等同于location.href = "http://www.baidu.com/";
+	}
+</script> -->
+
+	</head>
+	<!--[if lte IE 7]>      
+<body scroll="no"> 
+<![endif]-->
+	<!--[if gt IE 7]><!-->
+
+	<body>
+		<!--<![endif]-->
+		<!--指示上下滑动的箭头-->
+		<div class="sliding"></div>
+
+		<div id="article" style="height: 667px;">
+			<div class="page page0 current" data-step="0">
+				<div class="contain">
+					<img class="plane" src="images/plane.png" alt="">
+					<img class="yun1" src="images/yun1.png" alt="">
+					<img class="logo logo-ani" src="images/logo.png" alt="">
+					<img class="slogan slogan-ani" src="images/slogan.png" alt="">
+					<p class="desc">融合了渠道、信息分享、商城、社交、IM、企业内部管理等为一体新型产品</p>
+					<div class="yun yunq"></div>
+					<div class="yun yunh"></div>
+				</div>
+			</div>
+			<div class="page page1">
+				<div class="contain">
+					<div class="mobile">
+						<img src="images/mobile.png" alt="">
+						<span class="tianqi tianqi-ani"><img src="images/tianqi.png" alt=""></span>
+						<span class="daka daka-ani"><img src="images/daka.png" alt=""></span>
+						<span class="nbgl nbgl-ani"><img src="images/nbgl.png" alt=""></span>
+						<span class="yijian yijian-ani"><img src="images/yijian.png" alt=""></span>
+						<span class="jilu jilu-ani"><img src="images/jilu.png" alt=""></span>
+						<span class="tongxun tongxun-ani"><img src="images/tongxun.png" alt=""></span>
+						<span class="zhaopin"><img src="images/zhaopin.png" alt=""></span>
+						<span class="chat"><img src="images/chat.png" alt=""></span>
+					</div>
+					<h2 class="title"><img src="images/title1.png" alt=""></h2>
+					<p class="desc">将企业员工、非企业员工的工作与生活有效的连接在了一起，开启了“8小时之内”与“8小时之外”的双重模式。</p>
+					<div class="yun yunq"></div>
+					<div class="yun yunh"></div>
+				</div>
+			</div>
+			<div class="page page2">
+				<div class="contain">
+					<img class="tese1" src="images/tese1.png" alt="">
+					<img class="title" src="images/tese_title1.png" alt="">
+					<p class="desc">企业之窗提供形式丰富的展现方式，展现内容可以由企业指定，提升企业正面内容的曝光，同时大大降低负面信息的出现几率，为企业树立形象和口碑。</p>
+					<img class="zhuangshi zhuangshi1" src="images/zhuangshi.png" alt="">
+					<img class="zhuangshi zhuangshi2" src="images/zhuangshi.png" alt="">
+				</div>
+			</div>
+			<div class="page page3">
+				<div class="contain">
+					<img class="title" src="images/tese_title2.png" alt="">
+					<p class="desc">企业之窗拥有更多官方信息提供，更多官方形象展现。借助企业之窗平台，正向传递企业价值，长期深度影响企业用户。</p>
+					<img class="ren ren-ani" src="images/ren2.png" alt="">
+					<img class="near21 near21-ani" src="images/near21.png" alt="">
+					<img class="near22 near22-ani" src="images/near22.png" alt="">
+					<img class="zhuangshi zhuangshi1" src="images/zhuangshi.png" alt="">
+					<img class="zhuangshi zhuangshi2" src="images/zhuangshi.png" alt="">
+				</div>
+			</div>
+			<div class="page page4">
+				<div class="contain">
+					<img class="title" src="images/tese_title3.png" alt="">
+					<p class="desc">为微小企业构建移动办公平台，为大型公司优化办公流程。</p>
+					<img class="ren ren-ani" src="images/ren3.png" alt="">
+					<img class="near3 near3-ani" src="images/near3.png" alt="">
+					<img class="zhuangshi zhuangshi1" src="images/zhuangshi.png" alt="">
+					<img class="zhuangshi zhuangshi2" src="images/zhuangshi.png" alt="">
+				</div>
+			</div>
+			<div class="page page5">
+				<div class="contain">
+					<img class="title" src="images/tese_title4.png" alt="">
+					<p class="desc">在企业级应用中加入社交元素，丰富员工业余生活，最大程度的建立企业与企业之间关系链，促进企业员工与员工之间友好互动。</p>
+					<img class="ren ren-ani" src="images/ren4.png" alt="">
+					<img class="near41 near41-ani" src="images/near41.png" alt="">
+					<img class="near42 near42-ani" src="images/near42.png" alt="">
+					<img class="zhuangshi" src="images/zhuangshi.png" alt="">
+				</div>
+			</div>
+			<div class="page page6">
+				<div class="contain">
+					<img class="title" src="images/title3.png" alt="">
+					<ul class="bottom">
+						<li class="fadein2"><span class="span1"></span><i>企业风采</i>
+						</li>
+						<li class="fadein1"><span class="span2"></span><i>产品展示</i>
+						</li>
+						<li class="fadein0"><span class="span3"></span><i>招贤纳士</i>
+						</li>
+						<br>
+						<li class="fadein2"><span class="span4"></span><i>企业文化</i>
+						</li>
+						<li class="fadein1"><span class="span5"></span><i>互动社区</i>
+						</li>
+						<li class="fadein0"><span class="span6"></span><i>交友</i>
+						</li>
+						<br>
+						<li class="fadein2"><span class="span7"></span><i>易物</i>
+						</li>
+						<li class="fadein1"><span class="span8"></span><i>拼吧</i>
+						</li>
+						<li class="fadein0"><span class="span9"></span><i>更多</i>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page page7">
+				<div class="contain">
+					<img class="title" src="images/title7.png" alt="">
+					<p>简单四步骤，轻松设置多样的APP，跟我们一起出发吧！</p>
+					<img class="mobile" src="images/mobile2.png" alt="">
+					<div class="step step1 step1-ani">
+						<span class="circle"></span>
+						<span class="lead">后台提交材料</span>
+					</div>
+					<div class="step step2 step2-ani">
+						<span class="circle"></span>
+						<span class="lead">选择模板</span>
+						<img class="line" src="images/line1.png" alt="">
+					</div>
+					<div class="step step3 step3-ani">
+						<span class="circle"></span>
+						<span class="lead">制作企业展示页</span>
+						<img class="line" src="images/line2.png" alt="">
+					</div>
+					<div class="step step4 step4-ani">
+						<span class="circle"></span>
+						<span class="lead">登录APP</span>
+						<img class="line" src="images/line3.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="page page8">
+				<div class="contain">
+					<div class="border">
+						<img class="er-yun" src="images/yun.png" alt="">
+						<img class="erweima" src="images/erweima.png" alt="">
+						<p class="sao">扫一扫下载</p>
+						<p class="border-in">
+							<img class="dot" src="images/dot.png" alt="">
+							<span>你还在犹豫？想体验，就即刻！</span>
+						</p>
+					</div>
+					<img class="buguize" src="images/buguize.png" alt="">
+					<img class="zhuangshi" src="images/zhuangshi.png" alt="">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/fullPage.min.js"></script>
+		<script type="text/javascript">
+			runPage = new FullPage({
+			
+			        id: 'article', // id of contain
+			        slideTime: 800, // time of slide
+			        continuous: true,
+			        effect: { // slide effect
+			            transform: {
+			                translate: 'Y', // 'X'|'Y'|'XY'|'none'
+			                scale: [0, 1], // [scalefrom, scaleto]
+			                rotate: [0, 145] // [rotatefrom, rotateto]
+			            },
+			            opacity: [0, 1] // [opacityfrom, opacityto]
+			        },
+			        mode: 'touch,wheel', // mode of fullpage
+			        easing: [0, .93, .39, .98], // callback when pageChange
+			    });
+		</script>
+
+		<div id="window-resizer-tooltip">
+			<a href="#" title="Edit settings"></a>
+			<span class="tooltipTitle">Window size: </span>
+			<span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span>
+			<br><span class="tooltipTitle">Viewport size: </span>
+			<span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span>
+		</div>
+	</body>
+
+</html>
